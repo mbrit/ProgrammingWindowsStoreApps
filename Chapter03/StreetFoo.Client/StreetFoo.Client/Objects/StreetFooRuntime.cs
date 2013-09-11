@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SQLite;
+using TinyIoC;
 
 namespace StreetFoo.Client
 {
@@ -28,16 +29,8 @@ namespace StreetFoo.Client
         {
             Module = module;
 
-            // setup the default IoC handlers for the view models...
-            ViewModelFactory.Current.SetHandler(typeof(IRegisterPageViewModel), typeof(RegisterPageViewModel));
-            ViewModelFactory.Current.SetHandler(typeof(ILogonPageViewModel), typeof(LogonPageViewModel));
-            ViewModelFactory.Current.SetHandler(typeof(IReportsPageViewModel), typeof(ReportsPageViewModel));
-
-            // ...and then for the service proxies...
-            ServiceProxyFactory.Current.SetHandler(typeof(IRegisterServiceProxy), typeof(RegisterServiceProxy));
-            ServiceProxyFactory.Current.SetHandler(typeof(ILogonServiceProxy), typeof(LogonServiceProxy));
-            ServiceProxyFactory.Current.SetHandler(typeof(IEnsureTestReportsServiceProxy), typeof(EnsureTestReportsServiceProxy));
-            ServiceProxyFactory.Current.SetHandler(typeof(IGetReportsByUserServiceProxy), typeof(GetReportsByUserServiceProxy));
+            // initialize TinyIoC...
+            TinyIoCContainer.Current.AutoRegister();
 
             // initialize the system database... a rare move to do this synchronously as we're booting up...
             var conn = GetSystemDatabase();

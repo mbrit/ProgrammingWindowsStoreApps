@@ -16,9 +16,6 @@ namespace StreetFoo.Client
 
         // support field for IsBusy flag...
         private int BusyCount { get; set; }
-        
-        // event for the change...
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public ViewModel()
         {
@@ -28,7 +25,6 @@ namespace StreetFoo.Client
         {
             this.Host = host;
         }
-
 
         // indicates whether the view model is busy...
         public bool IsBusy
@@ -72,7 +68,6 @@ namespace StreetFoo.Client
             if (this.BusyCount == 0)
                 this.IsBusy = false;
         }
-
 
         // called when the view is activated...
         public virtual void Activated()

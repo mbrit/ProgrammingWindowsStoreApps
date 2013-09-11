@@ -1,4 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\bookcode\!vs2013\chapter03\streetfoo.client\streetfoo.client.ui\obj\debug\intermediatexaml\streetfoo.client.ui.exe" HashGuid="bdb6e017-42b4-db46-132c-94051063f5bb" />
+    <ReferenceAssembly PathName="c:\bookcode\!vs2013\chapter03\streetfoo.client\streetfoo.client\bin\debug\streetfoo.client.dll" HashGuid="7f0e9524-62d0-0ff4-af36-3065ad23899c" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -1,4 +1,4 @@
-﻿<common:LayoutAwarePage
+﻿<local:StreetFooPage
     x:Name="pageRoot"
     x:Class="StreetFoo.Client.UI.ReportsPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
@@ -17,9 +17,6 @@
         <CollectionViewSource
             x:Name="itemsViewSource"
             Source="{Binding Items}"/>
-
-        <common:BooleanToVisibilityConverter x:Key="VisibilityConverter" />
-        <common:BooleanNegationConverter x:Key="NegationConverter" />
         
     </Page.Resources>
 
@@ -38,10 +35,15 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Reports" Style="{StaticResource PageHeaderTextStyle}"/>
+            <AppBarButton x:Name="backButton" Icon="Back" Height="95" Margin="10,46,10,0"
+                          Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}" 
+                          Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibilityConverter}, RelativeSource={RelativeSource Mode=Self}}"
+                          AutomationProperties.Name="Back"
+                          AutomationProperties.AutomationId="BackButton"
+                          AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Reports" Style="{StaticResource HeaderTextBlockStyle}"/>
             
-            <Button Content="Refresh" Margin="392,66,0,36" Grid.Column="1" Command="{Binding RefreshCommand}" />
+            <Button Content="Refresh" Visibility="Collapsed" Margin="392,66,0,36" Grid.Column="1" Command="{Binding RefreshCommand}" />
             
         </Grid>
 
@@ -113,5 +115,5 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
     </Grid>
-</common:LayoutAwarePage>
+</local:StreetFooPage>
 

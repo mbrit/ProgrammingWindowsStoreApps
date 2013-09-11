@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using TinyIoC;
 
 namespace StreetFoo.Client
 {
@@ -17,11 +18,17 @@ namespace StreetFoo.Client
         // defines the username settings key...
         internal const string LastUsernameKey = "LastUsername";
 
-        public LogonPageViewModel(IViewModelHost host)
-            : base(host)
+        public LogonPageViewModel()
         {
             // set RegisterCommand to defer to the DoRegistration method...
             this.LogonCommand = new DelegateCommand((args) => DoLogon(args as CommandExecutionContext));
+        }
+
+        public override void Initialize(IViewModelHost host)
+        {
+            base.Initialize(host);
+
+            // set...
             this.RegisterCommand = new NavigateCommand<IRegisterPageViewModel>(host);
         }
 
@@ -50,7 +57,6 @@ namespace StreetFoo.Client
             {
                 this.SetValue(value);
             }
-
         }
 
         private async void DoLogon(CommandExecutionContext context)
@@ -63,7 +69,7 @@ namespace StreetFoo.Client
             if (!(errors.HasErrors))
             {
                 // get a handler...
-                ILogonServiceProxy proxy = ServiceProxyFactory.Current.GetHandler<ILogonServiceProxy>();
+                var proxy = TinyIoCContainer.Current.Resolve<ILogonServiceProxy>();
 
                 // call...
                 using(this.EnterBusy())

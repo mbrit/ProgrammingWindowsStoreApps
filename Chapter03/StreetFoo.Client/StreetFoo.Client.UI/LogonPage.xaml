@@ -1,4 +1,4 @@
-﻿<common:LayoutAwarePage
+﻿<local:StreetFooPage
     x:Name="pageRoot"
     x:Class="StreetFoo.Client.UI.LogonPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
@@ -12,8 +12,6 @@
     mc:Ignorable="d" Margin="0,-1,0,1">
 
     <Page.Resources>
-        <common:BooleanToVisibilityConverter x:Key="VisibilityConverter" />
-        <common:BooleanNegationConverter x:Key="NegationConverter" />
     </Page.Resources>
 
     <Grid>
@@ -28,11 +26,16 @@
         </Grid.ColumnDefinitions>
 
         <ProgressBar Grid.ColumnSpan="2" VerticalAlignment="Top" IsIndeterminate="true" 
-                     Visibility="{Binding IsBusy, Converter={StaticResource VisibilityConverter}}"></ProgressBar>
+                     Visibility="{Binding IsBusy, Converter={StaticResource BooleanToVisibilityConverter}}"></ProgressBar>
 
         <!-- Back button and page title -->
-        <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-        <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logon" Style="{StaticResource PageHeaderTextStyle}"/>
+        <AppBarButton x:Name="backButton" Icon="Back" Height="95" Margin="10,46,10,0"
+                          Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}" 
+                          Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibilityConverter}, RelativeSource={RelativeSource Mode=Self}}"
+                          AutomationProperties.Name="Back"
+                          AutomationProperties.AutomationId="BackButton"
+                          AutomationProperties.ItemType="Navigation Button"/>
+        <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logon" Style="{StaticResource HeaderTextBlockStyle}"/>
 
         <!-- Registration form -->
         <StackPanel Grid.Row="1" Grid.Column="1">
@@ -44,40 +47,11 @@
             <PasswordBox HorizontalAlignment="Left" Width="400" Password="{Binding Password, Mode=TwoWay}" IsPasswordRevealButtonEnabled="true"/>
 
             <StackPanel Orientation="Horizontal">
-                <Button Content="Logon" Command="{Binding LogonCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource NegationConverter}}"></Button>
-                <Button Content="Register" Command="{Binding RegisterCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource NegationConverter}}"></Button>
+                <Button Content="Logon" Command="{Binding LogonCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource BooleanNegationConverter}}"></Button>
+                <Button Content="Register" Command="{Binding RegisterCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource BooleanNegationConverter}}"></Button>
             </StackPanel>
 
         </StackPanel>
 
-        <VisualStateManager.VisualStateGroups>
-
-            <!-- Visual states reflect the application's view state -->
-            <VisualStateGroup x:Name="ApplicationViewStates">
-                <VisualState x:Name="FullScreenLandscape"/>
-                <VisualState x:Name="Filled"/>
-
-                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
-                <VisualState x:Name="FullScreenPortrait">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
-
-                <!-- The back button and title have different styles when snapped -->
-                <VisualState x:Name="Snapped">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
-                        </ObjectAnimationUsingKeyFrames>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
     </Grid>
-</common:LayoutAwarePage>
+</local:StreetFooPage>

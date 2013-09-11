@@ -1,2 +1,2 @@
-C:\BookCode\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\StreetFoo.Client.UI.csproj;x86
-C:\BookCode\Chapter04\StreetFoo.Client\StreetFoo.Client\StreetFoo.Client.csproj;x86
+C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client.UI\StreetFoo.Client.UI.csproj;x86
+C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client\StreetFoo.Client.csproj;x86

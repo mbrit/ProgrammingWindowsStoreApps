@@ -124,23 +124,25 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
-            _typeNameTable[0] = "StreetFoo.Client.UI.BooleanToVisibilityConverter";
+            _typeNameTable = new string[8];
+            _typeNameTable[0] = "StreetFoo.Client.UI.BooleanNegationConverter";
             _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "StreetFoo.Client.UI.StreetFooPage";
-            _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[5] = "StreetFoo.Client.UI.LogonPage";
-            _typeNameTable[6] = "StreetFoo.Client.UI.RegisterPage";
+            _typeNameTable[2] = "StreetFoo.Client.UI.BooleanToVisibilityConverter";
+            _typeNameTable[3] = "StreetFoo.Client.UI.StreetFooPage";
+            _typeNameTable[4] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[5] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[6] = "StreetFoo.Client.UI.LogonPage";
+            _typeNameTable[7] = "StreetFoo.Client.UI.RegisterPage";
 
-            _typeTable = new global::System.Type[7];
-            _typeTable[0] = typeof(global::StreetFoo.Client.UI.BooleanToVisibilityConverter);
+            _typeTable = new global::System.Type[8];
+            _typeTable[0] = typeof(global::StreetFoo.Client.UI.BooleanNegationConverter);
             _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::StreetFoo.Client.UI.StreetFooPage);
-            _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[5] = typeof(global::StreetFoo.Client.UI.LogonPage);
-            _typeTable[6] = typeof(global::StreetFoo.Client.UI.RegisterPage);
+            _typeTable[2] = typeof(global::StreetFoo.Client.UI.BooleanToVisibilityConverter);
+            _typeTable[3] = typeof(global::StreetFoo.Client.UI.StreetFooPage);
+            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[6] = typeof(global::StreetFoo.Client.UI.LogonPage);
+            _typeTable[7] = typeof(global::StreetFoo.Client.UI.RegisterPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,13 +177,15 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_BooleanToVisibilityConverter() { return new global::StreetFoo.Client.UI.BooleanToVisibilityConverter(); }
+        private object Activate_0_BooleanNegationConverter() { return new global::StreetFoo.Client.UI.BooleanNegationConverter(); }
 
-        private object Activate_2_StreetFooPage() { return new global::StreetFoo.Client.UI.StreetFooPage(); }
+        private object Activate_2_BooleanToVisibilityConverter() { return new global::StreetFoo.Client.UI.BooleanToVisibilityConverter(); }
 
-        private object Activate_5_LogonPage() { return new global::StreetFoo.Client.UI.LogonPage(); }
+        private object Activate_3_StreetFooPage() { return new global::StreetFoo.Client.UI.StreetFooPage(); }
 
-        private object Activate_6_RegisterPage() { return new global::StreetFoo.Client.UI.RegisterPage(); }
+        private object Activate_6_LogonPage() { return new global::StreetFoo.Client.UI.LogonPage(); }
+
+        private object Activate_7_RegisterPage() { return new global::StreetFoo.Client.UI.RegisterPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -194,9 +198,9 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  StreetFoo.Client.UI.BooleanToVisibilityConverter
+            case 0:   //  StreetFoo.Client.UI.BooleanNegationConverter
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_BooleanToVisibilityConverter;
+                userType.Activator = Activate_0_BooleanNegationConverter;
                 xamlType = userType;
                 break;
 
@@ -204,29 +208,35 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
                 xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  StreetFoo.Client.UI.StreetFooPage
+            case 2:   //  StreetFoo.Client.UI.BooleanToVisibilityConverter
+                userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_2_BooleanToVisibilityConverter;
+                xamlType = userType;
+                break;
+
+            case 3:   //  StreetFoo.Client.UI.StreetFooPage
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_StreetFooPage;
+                userType.Activator = Activate_3_StreetFooPage;
                 xamlType = userType;
                 break;
 
-            case 3:   //  Windows.UI.Xaml.Controls.Page
+            case 4:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Windows.UI.Xaml.Controls.UserControl
+            case 5:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  StreetFoo.Client.UI.LogonPage
+            case 6:   //  StreetFoo.Client.UI.LogonPage
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("StreetFoo.Client.UI.StreetFooPage"));
-                userType.Activator = Activate_5_LogonPage;
+                userType.Activator = Activate_6_LogonPage;
                 xamlType = userType;
                 break;
 
-            case 6:   //  StreetFoo.Client.UI.RegisterPage
+            case 7:   //  StreetFoo.Client.UI.RegisterPage
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("StreetFoo.Client.UI.StreetFooPage"));
-                userType.Activator = Activate_6_RegisterPage;
+                userType.Activator = Activate_7_RegisterPage;
                 xamlType = userType;
                 break;
             }

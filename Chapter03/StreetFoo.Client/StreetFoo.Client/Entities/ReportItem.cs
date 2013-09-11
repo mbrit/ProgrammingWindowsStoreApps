@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using SQLite;
 using Windows.Data.Json;
+using TinyIoC;
 
 namespace StreetFoo.Client
 {
@@ -40,7 +41,7 @@ namespace StreetFoo.Client
         public static async Task UpdateCacheFromServerAsync()
         {
             // create a service proxy to call up to the server...
-            IGetReportsByUserServiceProxy proxy = ServiceProxyFactory.Current.GetHandler<IGetReportsByUserServiceProxy>();
+            var proxy = TinyIoCContainer.Current.Resolve<IGetReportsByUserServiceProxy>();
             var result = await proxy.GetReportsByUserAsync();
 
             // did it actually work?

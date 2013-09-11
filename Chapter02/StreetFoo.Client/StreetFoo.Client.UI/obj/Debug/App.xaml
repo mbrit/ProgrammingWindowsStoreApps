@@ -8,6 +8,7 @@
         <ResourceDictionary>
 
             <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+            <local:BooleanNegationConverter x:Key="BooleanNegationConverter"/>
             <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
 
         </ResourceDictionary>

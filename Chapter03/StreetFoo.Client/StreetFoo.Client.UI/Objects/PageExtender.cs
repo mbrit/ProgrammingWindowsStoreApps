@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
+using TinyIoC;
 using Windows.Foundation;
 using Windows.UI.Popups;
 using Windows.UI.Xaml.Controls;
@@ -24,10 +26,21 @@ namespace StreetFoo.Client.UI
             return dialog.ShowAsync();
         }
 
-        internal static void InitializeModel(this Page page, IViewModel model)
+        internal static void InitializeViewModel(this IViewModelHost host, IViewModel model = null)
         {
-            // setup the data context...
-            page.DataContext = model;
+            // if we don't get given a model?
+            if (model == null)
+            {
+                var attr = (ViewModelAttribute)host.GetType().GetTypeInfo().GetCustomAttribute<ViewModelAttribute>();
+                if (attr != null)
+                    model = (IViewModel)TinyIoCContainer.Current.Resolve(attr.ViewModelInterfaceType);
+                else
+                    throw new InvalidOperationException(string.Format("Page '{0}' is not decorated with ViewModelAttribute."));
+            }
+
+            // setup...
+            model.Initialize((IViewModelHost)host);
+            ((Page)host).DataContext = model;
         }
 
         internal static IViewModel GetModel(this Page page)

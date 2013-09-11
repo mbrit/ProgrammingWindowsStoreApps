@@ -14,7 +14,7 @@
     <Page.Resources>
     </Page.Resources>
 
-    <Grid Style="{StaticResource LayoutRootStyle}">
+    <Grid>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>

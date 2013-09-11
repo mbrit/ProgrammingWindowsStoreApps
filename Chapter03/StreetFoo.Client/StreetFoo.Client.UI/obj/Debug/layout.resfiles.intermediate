@@ -2,10 +2,8 @@ Assets\Logo.png
 Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
-App.xaml
-Common\StandardStyles.xaml
-LogonPage.xaml
-RegisterPage.xaml
-ReportsPage.xaml
+App.xbf
+LogonPage.xbf
+RegisterPage.xbf
+ReportsPage.xbf
 Common\ReadMe.txt
-sqlite3.dll

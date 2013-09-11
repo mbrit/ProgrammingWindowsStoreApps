@@ -108,9 +108,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Entities\ModelItem.cs" />
-    <Compile Include="Ioc\IocBase.cs" />
-    <Compile Include="Ioc\ServiceProxyFactory.cs" />
-    <Compile Include="Ioc\ViewModelFactory.cs" />
     <Compile Include="Model\Base\CommandExecutionContext.cs" />
     <Compile Include="Model\Base\IViewModeHostExtender.cs" />
     <Compile Include="Model\Base\IViewModel.cs" />

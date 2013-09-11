@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using TinyIoC;
 
 namespace StreetFoo.Client
 {
@@ -14,8 +15,7 @@ namespace StreetFoo.Client
         // commands...
         public ICommand RegisterCommand { get; private set; }
 
-        public RegisterPageViewModel(IViewModelHost host)
-            : base(host)
+        public RegisterPageViewModel()
         {
             // set RegisterCommand to defer to the DoRegistration method...
             this.RegisterCommand = new DelegateCommand((args) => DoRegistration(args as CommandExecutionContext));
@@ -87,7 +87,7 @@ namespace StreetFoo.Client
             if (!(errors.HasErrors))
             {
                 // get a handler...
-                IRegisterServiceProxy proxy = ServiceProxyFactory.Current.GetHandler<IRegisterServiceProxy>();
+                var proxy = TinyIoCContainer.Current.Resolve<IRegisterServiceProxy>();
 
                 // call...
                 using (this.EnterBusy())

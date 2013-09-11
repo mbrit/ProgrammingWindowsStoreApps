@@ -1,4 +1,4 @@
-﻿<common:LayoutAwarePage
+﻿<local:StreetFooPage
     x:Name="pageRoot"
     x:Class="StreetFoo.Client.UI.LogonPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
@@ -12,8 +12,6 @@
     mc:Ignorable="d" Margin="0,-1,0,1">
 
     <Page.Resources>
-        <common:BooleanToVisibilityConverter x:Key="VisibilityConverter" />
-        <common:BooleanNegationConverter x:Key="NegationConverter" />
     </Page.Resources>
 
     <Grid>
@@ -31,8 +29,13 @@
                      Visibility="{Binding IsBusy, Converter={StaticResource VisibilityConverter}}"></ProgressBar>
 
         <!-- Back button and page title -->
-        <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-        <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logon" Style="{StaticResource PageHeaderTextStyle}"/>
+        <AppBarButton x:Name="backButton" Icon="Back" Height="95" Margin="10,46,10,0"
+                          Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}" 
+                          Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibilityConverter}, RelativeSource={RelativeSource Mode=Self}}"
+                          AutomationProperties.Name="Back"
+                          AutomationProperties.AutomationId="BackButton"
+                          AutomationProperties.ItemType="Navigation Button"/>
+        <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logon" Style="{StaticResource HeaderTextBlockStyle}"/>
 
         <!-- Registration form -->
         <StackPanel Grid.Row="1" Grid.Column="1">
@@ -41,7 +44,7 @@
             <TextBox HorizontalAlignment="Left" Width="400" Text="{Binding Username, Mode=TwoWay}"/>
 
             <TextBlock Text="Password"></TextBlock>
-            <PasswordBox HorizontalAlignment="Left" Width="400" Password="{Binding Password, Mode=TwoWay}"/>
+            <PasswordBox HorizontalAlignment="Left" Width="400" Password="{Binding Password, Mode=TwoWay}" IsPasswordRevealButtonEnabled="true"/>
 
             <StackPanel Orientation="Horizontal">
                 <Button Content="Logon" Command="{Binding LogonCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource NegationConverter}}"></Button>
@@ -80,5 +83,5 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
     </Grid>
-</common:LayoutAwarePage>
+</local:StreetFooPage>
 

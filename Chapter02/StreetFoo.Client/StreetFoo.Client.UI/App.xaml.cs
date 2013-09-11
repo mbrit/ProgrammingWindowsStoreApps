@@ -42,12 +42,12 @@ namespace StreetFoo.Client.UI
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
 
-#if DEBUG
-            if (System.Diagnostics.Debugger.IsAttached)
-            {
-                this.DebugSettings.EnableFrameRateCounter = true;
-            }
-#endif
+//#if DEBUG
+//            if (System.Diagnostics.Debugger.IsAttached)
+//            {
+//                this.DebugSettings.EnableFrameRateCounter = true;
+//            }
+//#endif
 
             // start...
             StreetFooRuntime.Start("Client");
@@ -75,7 +75,7 @@ namespace StreetFoo.Client.UI
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(RegisterPage), e.Arguments))
+                if (!rootFrame.Navigate(typeof(LogonPage), e.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }

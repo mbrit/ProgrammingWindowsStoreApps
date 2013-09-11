@@ -6,15 +6,17 @@
 
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
 
-                <!-- 
-                    Styles that define common aspects of the platform look and feel
-                    Required by Visual Studio project and item templates
-                 -->
+            <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+            <local:BooleanNegationConverter x:Key="BooleanNegationConverter"/>
+            <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+            <!-- shared styles... -->
+            <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Common/StandardStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-
+            
         </ResourceDictionary>
     </Application.Resources>
+
 </Application>

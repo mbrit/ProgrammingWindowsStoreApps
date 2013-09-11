@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using SQLite;
+using TinyIoC;
 
 namespace StreetFoo.Client
 {
@@ -20,21 +21,14 @@ namespace StreetFoo.Client
         public ICommand CreateTestReportsCommand { get; private set; }
         public ICommand RefreshCommand { get; private set; }
 
-        public ReportsPageViewModel(IViewModelHost host)
-            : base(host)
+        public ReportsPageViewModel()
         {
             // setup...
             this.Items = new ObservableCollection<ReportItem>();
 
             // commands...
+            this.CreateTestReportsCommand = new DelegateCommand((args) => DoCreateTestReports(args as CommandExecutionContext)); 
             this.RefreshCommand = new DelegateCommand(async (e) => await this.DoRefresh(true));
-        }
-
-        private void DoMagic()
-        {
-            // commands...
-            this.CreateTestReportsCommand = new DelegateCommand((args) => DoCreateTestReports(args as CommandExecutionContext));
-            this.RefreshCommand = new DelegateCommand(async (args) => await DoRefresh(true));
         }
 
         private async void DoCreateTestReports(CommandExecutionContext context)
@@ -45,7 +39,7 @@ namespace StreetFoo.Client
             // run...
             using(this.EnterBusy())
             {
-                IEnsureTestReportsServiceProxy proxy = ServiceProxyFactory.Current.GetHandler<IEnsureTestReportsServiceProxy>();
+                var proxy = TinyIoCContainer.Current.Resolve<IEnsureTestReportsServiceProxy>();
                 await proxy.EnsureTestReportsAsync();
 
                 // refresh the local cache and update the ui...

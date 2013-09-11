@@ -1,14 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources targetOsVersion="6.3.0" majorVersion="1">
   <index root="\" startIndexAt="obj\x86\Debug\layout.resfiles">
     <default>
-      <qualifier name="language" value="en-US" />
+      <qualifier name="Language" value="en-US" />
+      <qualifier name="Contrast" value="standard" />
+      <qualifier name="Scale" value="100" />
+      <qualifier name="HomeRegion" value="001" />
+      <qualifier name="TargetSize" value="256" />
+      <qualifier name="LayoutDirection" value="LTR" />
+      <qualifier name="Configuration" value="" />
+      <qualifier name="AlternateForm" value="" />
     </default>
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
   <index root="\" startIndexAt="obj\x86\Debug\resources.resfiles">
     <default>
-      <qualifier name="language" value="en-US" />
+      <qualifier name="Language" value="en-US" />
+      <qualifier name="Contrast" value="standard" />
+      <qualifier name="Scale" value="100" />
+      <qualifier name="HomeRegion" value="001" />
+      <qualifier name="TargetSize" value="256" />
+      <qualifier name="LayoutDirection" value="LTR" />
+      <qualifier name="Configuration" value="" />
+      <qualifier name="AlternateForm" value="" />
     </default>
     <indexer-config type="RESW" convertDotsToSlashes="true" initialPath="StreetFoo.Client" />
     <indexer-config type="RESJSON" initialPath="StreetFoo.Client" />
@@ -16,7 +30,14 @@
   </index>
   <index root="\" startIndexAt="obj\x86\Debug\pri.resfiles">
     <default>
-      <qualifier name="language" value="en-US" />
+      <qualifier name="Language" value="en-US" />
+      <qualifier name="Contrast" value="standard" />
+      <qualifier name="Scale" value="100" />
+      <qualifier name="HomeRegion" value="001" />
+      <qualifier name="TargetSize" value="256" />
+      <qualifier name="LayoutDirection" value="LTR" />
+      <qualifier name="Configuration" value="" />
+      <qualifier name="AlternateForm" value="" />
     </default>
     <indexer-config type="PRI" />
     <indexer-config type="RESFILES" qualifierDelimiter="." />
