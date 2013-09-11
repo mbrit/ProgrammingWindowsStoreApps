@@ -75,13 +75,8 @@ namespace StreetFoo.Client
                 this.Items.Clear();
 
                 foreach (ReportItem report in reports)
-                {
-                                    report.Title = "Foobar";
-                                    report.Description = "Hello, world.";
-
                     this.Items.Add(report);
-                }
-                }
+            }
         }
 
         public override async void Activated()
