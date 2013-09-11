@@ -143,7 +143,6 @@
     <Compile Include="Objects\ErrorBucket.cs" />
     <Compile Include="Objects\JsonObjectExtender.cs" />
     <Compile Include="Objects\StreetFooRuntime.cs" />
-    <Compile Include="Objects\TaskExtender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\EnsureTestReportsServiceProxy.cs" />
     <Compile Include="Services\GetReportsByUserResult.cs" />
