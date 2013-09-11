@@ -1,0 +1,2 @@
+C:\BookCode\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\StreetFoo.Client.UI.csproj;neutral
+C:\BookCode\Chapter04\StreetFoo.Client\StreetFoo.Client\StreetFoo.Client.csproj;neutral

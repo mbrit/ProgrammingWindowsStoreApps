@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RTM</Machine>
+    <WindowsUser>Matthew_2</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>39385F6964C9554F9F5E6BDD8867701A1F9C064D088C085B429308CF79311D80</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c9fedc2b-1256-4f6f-a782-f0642c9f17be-ch01_1.0.0.0_neutral__v736ajak9ynjj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c9fedc2b-1256-4f6f-a782-f0642c9f17be-ch01_v736ajak9ynjj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c9fedc2b-1256-4f6f-a782-f0642c9f17be-ch01</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthew_2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-10T16:25:30.997</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\bin\Debug\StructureFoo.UI.exe">
+      <PackagePath>StructureFoo.UI.exe</PackagePath>
+      <Modified>2013-09-10T16:25:30.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\bin\Debug\StructureFoo.UI.pdb">
+      <PackagePath>StructureFoo.UI.pdb</PackagePath>
+      <Modified>2013-09-10T16:25:30.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T18:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T18:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T18:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T18:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-09-10T16:25:30.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-09-10T16:25:30.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-10T16:25:30.750</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

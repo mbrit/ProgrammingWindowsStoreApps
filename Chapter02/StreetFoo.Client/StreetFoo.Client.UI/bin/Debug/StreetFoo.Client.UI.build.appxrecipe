@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RTM</Machine>
+    <WindowsUser>Matthew_2</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.exe">
+      <PackagePath>StreetFoo.Client.UI.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.pdb">
+      <PackagePath>StreetFoo.Client.UI.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.pdb">
+      <PackagePath>StreetFoo.Client.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.dll">
+      <PackagePath>StreetFoo.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\LogonPage.xbf">
+      <PackagePath>LogonPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\RegisterPage.xbf">
+      <PackagePath>RegisterPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

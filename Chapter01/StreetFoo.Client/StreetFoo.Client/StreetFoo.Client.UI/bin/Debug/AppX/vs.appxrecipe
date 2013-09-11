@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RP</Machine>
+    <WindowsUser>Matthew</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>AE4083B38600A0BB3C1AB1334B34A0EE82CC61CFC03CA29A04259BA7E71AECC5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5736f7ad-5eb4-4910-972c-90dc3cae8d23_1.0.0.0_neutral__fv7d1kf84c3t4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5736f7ad-5eb4-4910-972c-90dc3cae8d23_fv7d1kf84c3t4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5736f7ad-5eb4-4910-972c-90dc3cae8d23</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthew</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-03T15:13:43.908</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.exe">
+      <PackagePath>StreetFoo.Client.UI.exe</PackagePath>
+      <Modified>2012-07-03T15:13:43.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.pdb">
+      <PackagePath>StreetFoo.Client.UI.pdb</PackagePath>
+      <Modified>2012-07-03T15:13:43.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.pdb">
+      <PackagePath>StreetFoo.Client.pdb</PackagePath>
+      <Modified>2012-07-03T15:13:24.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.dll">
+      <PackagePath>StreetFoo.Client.dll</PackagePath>
+      <Modified>2012-07-03T15:13:24.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-02-14T04:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-02-14T04:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-02-14T04:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-02-14T04:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-02-14T04:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\RegisterPage.xaml">
+      <PackagePath>RegisterPage.xaml</PackagePath>
+      <Modified>2012-04-19T19:58:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-04-12T18:50:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-04-20T11:26:31.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

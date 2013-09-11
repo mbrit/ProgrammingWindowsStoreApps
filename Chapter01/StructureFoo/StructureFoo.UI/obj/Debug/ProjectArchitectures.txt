@@ -1,0 +1,1 @@
+c:\bookcode\Chapter01\StructureFoo\StructureFoo.UI\StructureFoo.UI.csproj;neutral
