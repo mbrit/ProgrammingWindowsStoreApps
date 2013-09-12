@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,8 +27,7 @@ namespace StreetFoo.Client
                 string asString = executeResult.Output.GetNamedString("reports");
 
                 // create some objects...
-                var mapper = JsonMapperFactory.GetMapper<ReportItem>();
-                List<ReportItem> reports = mapper.LoadArray(asString);
+                var reports = JsonConvert.DeserializeObject<List<ReportItem>>(asString);
 
                 // return...
                 return new GetReportsByUserResult(reports);

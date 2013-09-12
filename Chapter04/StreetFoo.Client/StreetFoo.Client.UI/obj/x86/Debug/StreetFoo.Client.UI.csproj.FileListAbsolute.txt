@@ -49,3 +49,5 @@ C:\BookCode\!VS2013\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug
 C:\BookCode\!VS2013\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\qualifiers.txt.intermediate
 C:\BookCode\!VS2013\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\BookCode\!VS2013\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\ProjectArchitectures.txt
+C:\BookCode\!VS2013\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\Newtonsoft.Json.dll
+C:\BookCode\!VS2013\Chapter04\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\Newtonsoft.Json.xml

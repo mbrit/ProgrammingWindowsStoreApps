@@ -22,19 +22,19 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\StreetFoo.Client.UI.exe">
       <PackagePath>StreetFoo.Client.UI.exe</PackagePath>
-      <Modified>2013-09-11T19:57:34.777</Modified>
+      <Modified>2013-09-12T19:18:21.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\StreetFoo.Client.UI.pdb">
       <PackagePath>StreetFoo.Client.UI.pdb</PackagePath>
-      <Modified>2013-09-11T19:57:34.735</Modified>
+      <Modified>2013-09-12T19:18:21.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client\bin\x86\Debug\StreetFoo.Client.pdb">
       <PackagePath>StreetFoo.Client.pdb</PackagePath>
-      <Modified>2013-09-11T19:57:33.441</Modified>
+      <Modified>2013-09-12T19:18:19.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client\bin\x86\Debug\StreetFoo.Client.dll">
       <PackagePath>StreetFoo.Client.dll</PackagePath>
-      <Modified>2013-09-11T19:57:33.488</Modified>
+      <Modified>2013-09-12T19:18:19.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter03\StreetFoo.Client\StreetFoo.Client\bin\x86\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>

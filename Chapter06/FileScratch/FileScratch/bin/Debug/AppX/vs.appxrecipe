@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RTM</Machine>
+    <WindowsUser>Matthew_2</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>CC04CFE6678A95E093E3CF568B06F19876538116F048A94986066695B7D33E15</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>dafffea4-49b3-4ba6-9605-98894b5b1d5a-vs2012_1.1.0.0_neutral__fv7d1kf84c3t4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>dafffea4-49b3-4ba6-9605-98894b5b1d5a-vs2012_fv7d1kf84c3t4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>dafffea4-49b3-4ba6-9605-98894b5b1d5a-vs2012</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthew</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-12T19:02:15.326</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\FileScratch.exe">
+      <PackagePath>FileScratch.exe</PackagePath>
+      <Modified>2013-09-12T19:02:15.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\FileScratch.pdb">
+      <PackagePath>FileScratch.pdb</PackagePath>
+      <Modified>2013-09-12T19:02:15.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Assets\FoobarFile.png">
+      <PackagePath>Assets\FoobarFile.png</PackagePath>
+      <Modified>2012-06-29T18:46:27.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-06-29T19:15:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-09-12T18:47:30.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2013-09-12T18:47:30.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\FileActivationPage.xbf">
+      <PackagePath>FileActivationPage.xbf</PackagePath>
+      <Modified>2013-09-12T18:47:30.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-09-12T19:02:14.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-12T18:59:39.430</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

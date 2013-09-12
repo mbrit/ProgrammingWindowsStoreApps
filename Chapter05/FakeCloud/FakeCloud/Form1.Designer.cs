@@ -143,7 +143,7 @@
             this.groupBox2.Size = new System.Drawing.Size(711, 86);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Get this value from your Metro-style app";
+            this.groupBox2.Text = "Get this value from your Windows Store app";
             // 
             // textUri
             // 

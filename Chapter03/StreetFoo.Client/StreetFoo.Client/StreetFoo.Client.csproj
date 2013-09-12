@@ -108,21 +108,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Data\IJsonMapper.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Data\JsonMapper.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Data\JsonMapperFactory.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Data\JsonMapperField.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Data\JsonMappingAttribute.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Data\SQLite.cs" />
     <Compile Include="Data\SQLiteAsync.cs" />
     <Compile Include="Entities\ModelItem.cs" />
