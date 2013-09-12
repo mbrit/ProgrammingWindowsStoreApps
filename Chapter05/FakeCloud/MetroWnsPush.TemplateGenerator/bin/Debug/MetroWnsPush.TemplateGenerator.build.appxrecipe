@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RTM</Machine>
+    <WindowsUser>Matthew_2</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\MetroWnsPush.TemplateGenerator.exe">
+      <PackagePath>MetroWnsPush.TemplateGenerator.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\MetroWnsPush.TemplateGenerator.pdb">
+      <PackagePath>MetroWnsPush.TemplateGenerator.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter05\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="StreetFoo.Client.UI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StreetFoo.Client.UI">
+
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <local:BooleanNegationConverter x:Key="BooleanNegationConverter"/>
+            <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,17 @@
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\StreetFoo.Client.dll
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\StreetFoo.Client.pdb
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\StreetFoo.Client.pri
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\Newtonsoft.Json.dll
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\Newtonsoft.Json.xml
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\StreetFoo.Client.csprojResolveAssemblyReference.cache
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\StreetFoo.Client.dll
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\StreetFoo.Client.pdb
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\priconfig.xml.intermediate
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\layout.resfiles.intermediate
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\resources.resfiles.intermediate
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\pri.resfiles.intermediate
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\priconfig.xml
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\layout.resfiles
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\resources.resfiles
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\pri.resfiles
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\obj\Release\LanguageQualifiers.txt

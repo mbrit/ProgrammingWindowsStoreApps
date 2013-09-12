@@ -1,0 +1,11 @@
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\obj\Debug\StreetFoo.FakeCloud.csprojResolveAssemblyReference.cache
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\obj\Debug\StreetFoo.FakeCloud.Form1.resources
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\obj\Debug\StreetFoo.FakeCloud.Properties.Resources.resources
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\obj\Debug\StreetFoo.FakeCloud.csproj.GenerateResource.Cache
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\bin\Debug\StreetFoo.FakeCloud.exe.config
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\bin\Debug\StreetFoo.FakeCloud.exe
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\bin\Debug\StreetFoo.FakeCloud.pdb
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\obj\Debug\StreetFoo.FakeCloud.exe
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\obj\Debug\StreetFoo.FakeCloud.pdb
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\bin\Debug\Newtonsoft.Json.dll
+C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.FakeCloud\bin\Debug\Newtonsoft.Json.xml

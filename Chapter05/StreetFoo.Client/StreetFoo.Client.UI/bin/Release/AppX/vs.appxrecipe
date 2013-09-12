@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RP</Machine>
+    <WindowsUser>Matthew</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>5D7AC2713EB23E4078B19D582684B16A0C139E4DA187AAC4FE3F10441EE31FE1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>BUILD.49ce95bb-66d6-4e78-85ec-4d4e72ca292d_1.6.0.0_neutral__fv7d1kf84c3t4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>BUILD.49ce95bb-66d6-4e78-85ec-4d4e72ca292d_fv7d1kf84c3t4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>BUILD.49ce95bb-66d6-4e78-85ec-4d4e72ca292d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthew</RegisteredPackagePublisher>
+    <RegisteredVersion>1.6.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T18:41:54.432</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\StreetFoo.Client.UI.exe">
+      <PackagePath>StreetFoo.Client.UI.exe</PackagePath>
+      <Modified>2012-07-26T18:41:54.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\StreetFoo.Client.UI.pdb">
+      <PackagePath>StreetFoo.Client.UI.pdb</PackagePath>
+      <Modified>2012-07-26T18:41:54.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\StreetFoo.Client.pdb">
+      <PackagePath>StreetFoo.Client.pdb</PackagePath>
+      <Modified>2012-07-26T18:41:51.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\Release\StreetFoo.Client.dll">
+      <PackagePath>StreetFoo.Client.dll</PackagePath>
+      <Modified>2012-07-26T18:41:51.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\packages\Newtonsoft.Json.4.5.7\lib\winrt45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2012-06-19T23:02:57.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\Foo.png">
+      <PackagePath>Assets\Foo.png</PackagePath>
+      <Modified>2012-06-26T22:25:50.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\Foo1.png">
+      <PackagePath>Assets\Foo1.png</PackagePath>
+      <Modified>2012-06-24T22:15:58.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\Foo2.png">
+      <PackagePath>Assets\Foo2.png</PackagePath>
+      <Modified>2012-06-24T22:16:43.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-06-19T20:09:21.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2012-07-26T18:08:52.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client\sqlite3.dll">
+      <PackagePath>StreetFoo.Client\sqlite3.dll</PackagePath>
+      <Modified>2012-05-27T08:53:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\Common\MyStandardStyles.xaml">
+      <PackagePath>Common\MyStandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T21:59:51.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T22:25:31.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\LogonPage.xaml">
+      <PackagePath>LogonPage.xaml</PackagePath>
+      <Modified>2012-07-26T15:35:01.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\RegisterPage.xaml">
+      <PackagePath>RegisterPage.xaml</PackagePath>
+      <Modified>2012-06-19T20:43:24.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\ReportsPage.xaml">
+      <PackagePath>ReportsPage.xaml</PackagePath>
+      <Modified>2012-06-26T21:34:28.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-06-26T21:59:51.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\packages\Newtonsoft.Json.4.5.7\lib\winrt45\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+      <Modified>2012-06-19T23:02:57.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-07-26T18:41:54.298</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

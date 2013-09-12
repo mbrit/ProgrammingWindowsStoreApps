@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RP</Machine>
+    <WindowsUser>Matthew</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>16A67A22949BB3C586F580F619F7FD13795D41AAFC60ED99F86CAA6692C3F3A6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4655a260-1cdc-43a8-b3f6-71d7474108a3_1.0.0.0_neutral__fv7d1kf84c3t4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4655a260-1cdc-43a8-b3f6-71d7474108a3_fv7d1kf84c3t4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4655a260-1cdc-43a8-b3f6-71d7474108a3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthew</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-19T20:33:55.994</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\MetroWnsPush.TemplateGenerator.exe">
+      <PackagePath>MetroWnsPush.TemplateGenerator.exe</PackagePath>
+      <Modified>2012-07-19T20:39:29.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\MetroWnsPush.TemplateGenerator.pdb">
+      <PackagePath>MetroWnsPush.TemplateGenerator.pdb</PackagePath>
+      <Modified>2012-07-19T20:39:28.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-23T21:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-07-19T20:29:52.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-07-19T20:29:52.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\bookcode\chapter06\FakeCloud\FakeCloud\MetroWnsPush.TemplateGenerator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-07-19T20:33:55.858</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
