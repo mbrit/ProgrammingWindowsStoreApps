@@ -23,7 +23,7 @@ namespace StreetFoo.Client
         internal async Task InitializeAsync(ReportImageCacheManager manager)
         {
             // get...
-            var imageUrl = await manager.GetLocalImageUrlAsync(this);
+            var imageUrl = string.Empty; //  await manager.GetLocalImageUrlAsync(this);
             if (!(string.IsNullOrEmpty(imageUrl)))
             {
                 // set it up...

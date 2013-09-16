@@ -24,7 +24,7 @@ namespace StreetFoo.Client
             Debug.WriteLine(string.Format("Enqueuing download for '{0}'...", viewItem.NativeId));
 
             // create a new task...
-            Task.Run<string>(async () =>
+            var theUrl = Task.Run<string>(async () =>
             {
                 Debug.WriteLine(string.Format("Requesting image for '{0}'...", viewItem.NativeId));
 
@@ -49,7 +49,7 @@ namespace StreetFoo.Client
 
             }).ContinueWith(t =>
             {
-                // send it back...
+                // set it...
                 viewItem.ImageUri = t.Result;
 
             }, TaskScheduler.FromCurrentSynchronizationContext());

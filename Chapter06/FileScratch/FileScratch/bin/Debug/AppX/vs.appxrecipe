@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\FileScratch.exe">
       <PackagePath>FileScratch.exe</PackagePath>
-      <Modified>2013-09-12T19:02:15.135</Modified>
+      <Modified>2013-09-13T19:43:23.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\bin\Debug\FileScratch.pdb">
       <PackagePath>FileScratch.pdb</PackagePath>
-      <Modified>2013-09-12T19:02:15.099</Modified>
+      <Modified>2013-09-13T19:43:23.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\FileScratch\FileScratch\Assets\FoobarFile.png">
       <PackagePath>Assets\FoobarFile.png</PackagePath>

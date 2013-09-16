@@ -86,6 +86,13 @@ namespace FileScratch
 
             // find the page and tell it...
             var frame = (Frame)Window.Current.Content;
+            if (frame == null)
+            {
+                frame = new Frame();
+                Window.Current.Content = frame;
+            }
+
+            // correct page?
             if (!(frame.Content is FileActivationPage))
                 frame.Navigate(typeof(FileActivationPage));
 

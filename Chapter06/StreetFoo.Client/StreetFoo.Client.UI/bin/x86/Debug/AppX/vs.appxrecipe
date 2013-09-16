@@ -22,19 +22,19 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\StreetFoo.Client.UI.exe">
       <PackagePath>StreetFoo.Client.UI.exe</PackagePath>
-      <Modified>2013-09-12T19:33:17.717</Modified>
+      <Modified>2013-09-13T20:19:16.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\StreetFoo.Client.UI.pdb">
       <PackagePath>StreetFoo.Client.UI.pdb</PackagePath>
-      <Modified>2013-09-12T19:33:17.685</Modified>
+      <Modified>2013-09-13T20:19:16.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\x86\Debug\StreetFoo.Client.pdb">
       <PackagePath>StreetFoo.Client.pdb</PackagePath>
-      <Modified>2013-09-12T19:30:26.210</Modified>
+      <Modified>2013-09-13T20:19:14.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\x86\Debug\StreetFoo.Client.dll">
       <PackagePath>StreetFoo.Client.dll</PackagePath>
-      <Modified>2013-09-12T19:30:26.268</Modified>
+      <Modified>2013-09-13T20:19:14.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client\bin\x86\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -91,7 +91,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\Common\StandardStyles.xbf">
       <PackagePath>Common\StandardStyles.xbf</PackagePath>
-      <Modified>2013-09-12T19:33:17.341</Modified>
+      <Modified>2013-09-13T20:09:25.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\LogonPage.xbf">
       <PackagePath>LogonPage.xbf</PackagePath>
@@ -103,7 +103,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\bin\x86\Debug\ReportsPage.xbf">
       <PackagePath>ReportsPage.xbf</PackagePath>
-      <Modified>2013-09-12T19:31:51.278</Modified>
+      <Modified>2013-09-13T20:09:25.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.7.17\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
