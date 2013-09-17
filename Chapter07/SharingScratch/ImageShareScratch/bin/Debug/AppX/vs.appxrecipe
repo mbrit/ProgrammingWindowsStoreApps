@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AMXVMBR-W8RTM</Machine>
+    <WindowsUser>Matthew_2</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>FBF186C3A30AC3FB3E760938B188C4531FC1F5400C59905245B74763A10BE82B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8c96f52a-1d50-4d5a-a5f5-27f950cf4765_1.1.0.0_neutral__fv7d1kf84c3t4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8c96f52a-1d50-4d5a-a5f5-27f950cf4765_fv7d1kf84c3t4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8c96f52a-1d50-4d5a-a5f5-27f950cf4765</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matthew</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-17T15:04:50.522</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\ImageShareScratch.exe">
+      <PackagePath>ImageShareScratch.exe</PackagePath>
+      <Modified>2013-09-17T15:04:50.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\ImageShareScratch.pdb">
+      <PackagePath>ImageShareScratch.pdb</PackagePath>
+      <Modified>2013-09-17T15:04:49.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T16:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-09-17T15:04:49.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2013-09-17T15:04:49.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-09-17T15:04:49.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter07\SharingScratch\ImageShareScratch\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-17T15:04:50.383</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

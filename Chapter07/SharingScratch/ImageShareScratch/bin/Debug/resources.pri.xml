@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="8c96f52a-1d50-4d5a-a5f5-27f950cf4765" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xaml" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/App.xaml">
+				<Candidate type="Path">
+					<Value>App.xaml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xaml" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/MainPage.xaml">
+				<Candidate type="Path">
+					<Value>MainPage.xaml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/Assets/Logo.png">
+					<Candidate type="Path">
+						<Value>Assets\Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/Assets/SmallLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\SmallLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/Assets/SplashScreen.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreen.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="StandardStyles.xaml" uri="ms-resource://8c96f52a-1d50-4d5a-a5f5-27f950cf4765/Files/Common/StandardStyles.xaml">
+					<Candidate type="Path">
+						<Value>Common\StandardStyles.xaml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
