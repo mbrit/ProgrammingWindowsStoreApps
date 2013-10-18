@@ -22,3 +22,4 @@ C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client\obj\x86\Debug\pr
 C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client\obj\x86\Debug\qualifiers.txt
 C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client\obj\x86\Debug\qualifiers.txt.intermediate
 C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client\obj\x86\Debug\StreetFoo.Client.pri.xml

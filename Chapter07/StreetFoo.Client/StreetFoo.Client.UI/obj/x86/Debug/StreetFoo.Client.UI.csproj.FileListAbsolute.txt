@@ -66,3 +66,12 @@ C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug
 C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog.NetCore.pri.xml
 C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog.WinRT.pri.xml
 C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\ProjectArchitectures.txt
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\layout.resfiles
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\layout.resfiles.intermediate
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\Resources.resfiles
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\Resources.resfiles.intermediate
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\pri.resfiles
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\pri.resfiles.intermediate
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\priconfig.xml
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MetroLog\priconfig.xml.intermediate
+C:\BookCode\!VS2013\Chapter07\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\resources.pri.xml

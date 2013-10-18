@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>AMXVMBR-W8RTM</Machine>
-    <WindowsUser>Matthew_2</WindowsUser>
+    <Machine>AMXVMBR2</Machine>
+    <WindowsUser>matt_000</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>A16B70EE4C4BF36F601358959274A2988AF4BF748DDB6A48411ACA0187D95213</RegisteredManifestChecksum>
+    <PackageIdentityName>4d698003-4a6f-4aa1-bc8f-11fe18aaebcc-vs2013-ch02</PackageIdentityName>
+    <RegisteredManifestChecksum>1E8243066653EB2856E65E999BD546ED4F5516A38ACC60EF2FCF55325C2E908E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4d698003-4a6f-4aa1-bc8f-11fe18aaebcc-vs2013-ch02_1.1.0.0_neutral__v736ajak9ynjj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4d698003-4a6f-4aa1-bc8f-11fe18aaebcc-vs2013-ch02_v736ajak9ynjj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4d698003-4a6f-4aa1-bc8f-11fe18aaebcc-vs2013-ch02</RegisteredPackageID>
@@ -13,64 +14,56 @@
     <RegisteredVersion>1.1.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-10T17:55:42.243</Modified>
+      <Modified>2013-10-15T17:43:15.472</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.exe">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.exe">
       <PackagePath>StreetFoo.Client.UI.exe</PackagePath>
-      <Modified>2013-09-10T18:01:47.494</Modified>
+      <Modified>2013-10-15T17:56:39.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\StreetFoo.Client.UI.pdb">
-      <PackagePath>StreetFoo.Client.UI.pdb</PackagePath>
-      <Modified>2013-09-10T18:01:47.456</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.pdb">
-      <PackagePath>StreetFoo.Client.pdb</PackagePath>
-      <Modified>2013-09-10T17:55:40.336</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.dll">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client\StreetFoo.Client\bin\Debug\StreetFoo.Client.dll">
       <PackagePath>StreetFoo.Client.dll</PackagePath>
-      <Modified>2013-09-10T17:55:40.358</Modified>
+      <Modified>2013-10-15T17:43:12.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-30T20:09:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-06T20:41:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-08T20:55:29.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-06T20:40:15.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\Common\ReadMe.txt">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
-      <Modified>2013-09-10T17:45:51.228</Modified>
+      <Modified>2013-09-10T17:45:51.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2013-09-10T18:01:47.161</Modified>
+      <Modified>2013-10-15T17:43:14.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\RegisterPage.xbf">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\RegisterPage.xbf">
       <PackagePath>RegisterPage.xbf</PackagePath>
-      <Modified>2013-09-10T18:01:47.161</Modified>
+      <Modified>2013-10-15T17:43:14.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter02\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\BookCode\!VS2013\Chapter01\StreetFoo.Client\StreetFoo.Client.UI\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-10T17:55:42.172</Modified>
+      <Modified>2013-10-15T17:43:15.155</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

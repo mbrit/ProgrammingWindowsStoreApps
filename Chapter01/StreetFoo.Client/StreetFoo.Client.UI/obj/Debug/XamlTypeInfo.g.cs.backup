@@ -124,31 +124,21 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "StreetFoo.Client.UI.BooleanToVisibilityConverter";
             _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "StreetFoo.Client.UI.Donor";
+            _typeNameTable[2] = "StreetFoo.Client.UI.StreetFooPage";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[5] = "StreetFoo.Client.UI.ObservableDictionary";
-            _typeNameTable[6] = "String";
-            _typeNameTable[7] = "StreetFoo.Client.UI.NavigationHelper";
-            _typeNameTable[8] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[9] = "StreetFoo.Client.UI.StreetFooPage";
-            _typeNameTable[10] = "StreetFoo.Client.UI.RegisterPage";
+            _typeNameTable[5] = "StreetFoo.Client.UI.RegisterPage";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::StreetFoo.Client.UI.BooleanToVisibilityConverter);
             _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::StreetFoo.Client.UI.Donor);
+            _typeTable[2] = typeof(global::StreetFoo.Client.UI.StreetFooPage);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[5] = typeof(global::StreetFoo.Client.UI.ObservableDictionary);
-            _typeTable[6] = typeof(global::System.String);
-            _typeTable[7] = typeof(global::StreetFoo.Client.UI.NavigationHelper);
-            _typeTable[8] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[9] = typeof(global::StreetFoo.Client.UI.StreetFooPage);
-            _typeTable[10] = typeof(global::StreetFoo.Client.UI.RegisterPage);
+            _typeTable[5] = typeof(global::StreetFoo.Client.UI.RegisterPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -184,23 +174,8 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         }
 
         private object Activate_0_BooleanToVisibilityConverter() { return new global::StreetFoo.Client.UI.BooleanToVisibilityConverter(); }
-
-        private object Activate_2_Donor() { return new global::StreetFoo.Client.UI.Donor(); }
-
-        private object Activate_5_ObservableDictionary() { return new global::StreetFoo.Client.UI.ObservableDictionary(); }
-
-        private object Activate_9_StreetFooPage() { return new global::StreetFoo.Client.UI.StreetFooPage(); }
-
-        private object Activate_10_RegisterPage() { return new global::StreetFoo.Client.UI.RegisterPage(); }
-
-        private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
-        {
-            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
-            var newKey = (global::System.String)key;
-            var newItem = (global::System.Object)item;
-            collection.Add(newKey, newItem);
-        }
-
+        private object Activate_2_StreetFooPage() { return new global::StreetFoo.Client.UI.StreetFooPage(); }
+        private object Activate_5_RegisterPage() { return new global::StreetFoo.Client.UI.RegisterPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -222,11 +197,9 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
                 xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  StreetFoo.Client.UI.Donor
+            case 2:   //  StreetFoo.Client.UI.StreetFooPage
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_Donor;
-                userType.AddMemberName("DefaultViewModel");
-                userType.AddMemberName("NavigationHelper");
+                userType.Activator = Activate_2_StreetFooPage;
                 xamlType = userType;
                 break;
 
@@ -238,35 +211,9 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
                 xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  StreetFoo.Client.UI.ObservableDictionary
-                userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_5_ObservableDictionary;
-                userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
-                xamlType = userType;
-                break;
-
-            case 6:   //  String
-                xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  StreetFoo.Client.UI.NavigationHelper
-                userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                xamlType = userType;
-                break;
-
-            case 8:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 9:   //  StreetFoo.Client.UI.StreetFooPage
-                userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_StreetFooPage;
-                xamlType = userType;
-                break;
-
-            case 10:   //  StreetFoo.Client.UI.RegisterPage
+            case 5:   //  StreetFoo.Client.UI.RegisterPage
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("StreetFoo.Client.UI.StreetFooPage"));
-                userType.Activator = Activate_10_RegisterPage;
+                userType.Activator = Activate_5_RegisterPage;
                 xamlType = userType;
                 break;
             }
@@ -274,40 +221,13 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         }
 
 
-        private object get_0_Donor_DefaultViewModel(object instance)
-        {
-            var that = (global::StreetFoo.Client.UI.Donor)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_1_Donor_NavigationHelper(object instance)
-        {
-            var that = (global::StreetFoo.Client.UI.Donor)instance;
-            return that.NavigationHelper;
-        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlMember xamlMember = null;
-            global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType userType;
-
-            switch (longMemberName)
-            {
-            case "StreetFoo.Client.UI.Donor.DefaultViewModel":
-                userType = (global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("StreetFoo.Client.UI.Donor");
-                xamlMember = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "StreetFoo.Client.UI.ObservableDictionary");
-                xamlMember.Getter = get_0_Donor_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "StreetFoo.Client.UI.Donor.NavigationHelper":
-                userType = (global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("StreetFoo.Client.UI.Donor");
-                xamlMember = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlMember(this, "NavigationHelper", "StreetFoo.Client.UI.NavigationHelper");
-                xamlMember.Getter = get_1_Donor_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            }
+            // No Local Properties
             return xamlMember;
         }
-
     }
 
     
@@ -343,6 +263,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         virtual public bool IsDictionary { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsMarkupExtension { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsBindable { get { throw new global::System.NotImplementedException(); } }
+        virtual public bool IsReturnTypeStub { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType { get { throw new global::System.NotImplementedException(); } }
         virtual public object ActivateInstance() { throw new global::System.NotImplementedException(); }
@@ -366,6 +287,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         bool _isArray;
         bool _isMarkupExtension;
         bool _isBindable;
+        bool _isReturnTypeStub;
 
         string _contentPropertyName;
         string _itemTypeName;
@@ -389,6 +311,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         override public bool IsDictionary { get { return (DictionaryAdd != null); } }
         override public bool IsMarkupExtension { get { return _isMarkupExtension; } }
         override public bool IsBindable { get { return _isBindable; } }
+        override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
 
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
@@ -515,6 +438,11 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         public void SetIsBindable()
         {
             _isBindable = true;
+        }
+
+        public void SetIsReturnTypeStub()
+        {
+            _isReturnTypeStub = true;
         }
 
         public void SetItemTypeName(string itemTypeName)

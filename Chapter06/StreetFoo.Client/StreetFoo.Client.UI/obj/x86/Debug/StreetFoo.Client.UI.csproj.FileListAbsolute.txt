@@ -51,3 +51,4 @@ C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug
 C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\qualifiers.txt.intermediate
 C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\ProjectArchitectures.txt
+C:\BookCode\!VS2013\Chapter06\StreetFoo.Client\StreetFoo.Client.UI\obj\x86\Debug\resources.pri.xml

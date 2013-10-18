@@ -194,23 +194,14 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         }
 
         private object Activate_0_BooleanNegationConverter() { return new global::StreetFoo.Client.UI.BooleanNegationConverter(); }
-
         private object Activate_2_BooleanToVisibilityConverter() { return new global::StreetFoo.Client.UI.BooleanToVisibilityConverter(); }
-
         private object Activate_3_StreetFooPage() { return new global::StreetFoo.Client.UI.StreetFooPage(); }
-
         private object Activate_6_NotLoggedOnPage() { return new global::StreetFoo.Client.UI.NotLoggedOnPage(); }
-
         private object Activate_7_LogonPage() { return new global::StreetFoo.Client.UI.LogonPage(); }
-
         private object Activate_8_RegisterPage() { return new global::StreetFoo.Client.UI.RegisterPage(); }
-
         private object Activate_9_MyGridView() { return new global::StreetFoo.Client.UI.MyGridView(); }
-
         private object Activate_14_ReportsPage() { return new global::StreetFoo.Client.UI.ReportsPage(); }
-
         private object Activate_15_ShareTargetPage() { return new global::StreetFoo.Client.UI.ShareTargetPage(); }
-
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -289,6 +280,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
 
             case 12:   //  System.Windows.Input.ICommand
                 userType = new global::StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
@@ -374,7 +366,6 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
             }
             return xamlMember;
         }
-
     }
 
     
@@ -410,6 +401,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         virtual public bool IsDictionary { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsMarkupExtension { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsBindable { get { throw new global::System.NotImplementedException(); } }
+        virtual public bool IsReturnTypeStub { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType { get { throw new global::System.NotImplementedException(); } }
         virtual public object ActivateInstance() { throw new global::System.NotImplementedException(); }
@@ -433,6 +425,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         bool _isArray;
         bool _isMarkupExtension;
         bool _isBindable;
+        bool _isReturnTypeStub;
 
         string _contentPropertyName;
         string _itemTypeName;
@@ -456,6 +449,7 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         override public bool IsDictionary { get { return (DictionaryAdd != null); } }
         override public bool IsMarkupExtension { get { return _isMarkupExtension; } }
         override public bool IsBindable { get { return _isBindable; } }
+        override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
 
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
@@ -582,6 +576,11 @@ namespace StreetFoo.Client.UI.StreetFoo_Client_UI_XamlTypeInfo
         public void SetIsBindable()
         {
             _isBindable = true;
+        }
+
+        public void SetIsReturnTypeStub()
+        {
+            _isReturnTypeStub = true;
         }
 
         public void SetItemTypeName(string itemTypeName)
