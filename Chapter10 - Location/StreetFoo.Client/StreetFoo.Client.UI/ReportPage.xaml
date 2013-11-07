@@ -1,0 +1,90 @@
+﻿<local:StreetFooPage
+    x:Name="pageRoot"
+    x:Class="StreetFoo.Client.UI.ReportPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StreetFoo.Client.UI"
+    xmlns:common="using:StreetFoo.Client.UI.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Grid.Column="2">
+                    <!--<Button Style="{StaticResource EditAppBarButtonStyle}" Command="{Binding EditCommand}" />-->
+                    <Button Style="{StaticResource OpenMapAppBarButtonStyle}" Command="{Binding OpenMapCommand}" />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+    
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <AppBarButton x:Name="backButton" Icon="Back" Height="95" Margin="10,46,10,0"
+                          Click="GoBack" 
+                          Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibilityConverter}, RelativeSource={RelativeSource Mode=Self}}"
+                          AutomationProperties.Name="Back"
+                          AutomationProperties.AutomationId="BackButton"
+                          AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Reports" Style="{StaticResource HeaderTextBlockStyle}"/>
+        </Grid>
+        
+        <ScrollViewer Style="{StaticResource HorizontalScrollViewerStyle}" Grid.Row="1">
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="800"></ColumnDefinition>
+                    <ColumnDefinition Width="800"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <ContentControl Grid.Column="1" Style="{StaticResource PanoramaPanel}">
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource HeadingTextBlock}">Details</TextBlock>
+                        <Image Source="{Binding Item.ImageUri}" HorizontalAlignment="Left" Width="640" Height="480" Stretch="Uniform"
+                               Margin="0,0,0,10"></Image>
+                        <local:MarkupViewer Markup="{Binding Item.Description}"></local:MarkupViewer>
+                    </StackPanel>
+                </ContentControl>
+                
+                <ContentControl Grid.Column="2" Style="{StaticResource PanoramaPanel}">
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource HeadingTextBlock}">Location</TextBlock>
+                        <local:MyMap Width="780" Height="550" ShowTraffic="true" 
+                            PushpinPoint="{Binding Item, Converter={StaticResource IMappablePointConverter}}"></local:MyMap>
+                    </StackPanel>
+                </ContentControl>
+                        
+            </Grid>
+        </ScrollViewer>
+
+    </Grid>
+</local:StreetFooPage>

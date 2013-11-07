@@ -1,0 +1,76 @@
+﻿<local:StreetFooPage
+    x:Name="pageRoot"
+    x:Class="StreetFoo.Client.UI.ReportsPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StreetFoo.Client.UI"
+    xmlns:common="using:StreetFoo.Client.UI.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- Collection of items displayed by this page -->
+        <CollectionViewSource
+            x:Name="itemsViewSource"
+            Source="{Binding Items}"/>
+        
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ProgressBar Grid.ColumnSpan="2" VerticalAlignment="Top" IsIndeterminate="true" 
+                     Visibility="{Binding IsBusy, Converter={StaticResource BooleanToVisibilityConverter}}"></ProgressBar>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <AppBarButton x:Name="backButton" Icon="Back" Height="95" Margin="10,46,10,0"
+                          Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}" 
+                          Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibilityConverter}, RelativeSource={RelativeSource Mode=Self}}"
+                          AutomationProperties.Name="Back"
+                          AutomationProperties.AutomationId="BackButton"
+                          AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Reports" Style="{StaticResource HeaderTextBlockStyle}"/>
+            
+            <Button Content="Refresh" Visibility="Collapsed" Margin="392,66,0,36" Grid.Column="1" Command="{Binding RefreshCommand}" />
+            
+        </Grid>
+
+        <!-- Horizontal scrolling grid used in most view states -->
+        <GridView
+            x:Name="itemGridView"
+            AutomationProperties.AutomationId="ItemsGridView"
+            AutomationProperties.Name="Items"
+            TabIndex="1"
+            Grid.Row="1"
+            Margin="0,-4,0,0"
+            Padding="116,0,116,46"
+            ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+            ItemTemplate="{StaticResource ReportItem250x250Template}"/>
+
+        <!-- Vertical scrolling list only used when snapped --><!--
+        <ListView
+            x:Name="itemListView"
+            AutomationProperties.AutomationId="ItemsListView"
+            AutomationProperties.Name="Items"
+            TabIndex="1"
+            Grid.Row="1"
+            Visibility="Collapsed"
+            Margin="0,-10,0,0"
+            Padding="10,0,0,60"
+            ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+            ItemTemplate="{StaticResource Standard80ItemTemplate}"/>-->
+
+    </Grid>
+</local:StreetFooPage>
