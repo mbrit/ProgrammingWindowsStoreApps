@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetFoo.Client", "StreetFoo.Client\StreetFoo.Client.csproj", "{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetFoo.Client.UI", "StreetFoo.Client.UI\StreetFoo.Client.UI.csproj", "{00A9BF58-D582-45F3-B0FD-C366262F728B}"
@@ -17,8 +19,8 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|Any CPU.Build.0 = Debug|x86
 		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|ARM.ActiveCfg = Debug|ARM
 		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|ARM.Build.0 = Debug|ARM
 		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Debug|x64.ActiveCfg = Debug|x64
@@ -33,9 +35,9 @@ Global
 		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Release|x64.Build.0 = Release|x64
 		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Release|x86.ActiveCfg = Release|x86
 		{B1AF742B-CAFA-47B4-881C-09E2A3D2FC83}.Release|x86.Build.0 = Release|x86
-		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|Any CPU.Build.0 = Debug|x86
+		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|ARM.ActiveCfg = Debug|ARM
 		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|ARM.Build.0 = Debug|ARM
 		{00A9BF58-D582-45F3-B0FD-C366262F728B}.Debug|ARM.Deploy.0 = Debug|ARM
