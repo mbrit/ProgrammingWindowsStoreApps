@@ -25,7 +25,7 @@ namespace StreetFoo.Client
         public ICommand RefreshCommand { get { return this.GetValue<ICommand>(); } private set { this.SetValue(value); } }
         public ICommand SelectionCommand { get { return this.GetValue<ICommand>(); } private set { this.SetValue(value); } }
         public ICommand ShowLocationCommand { get { return this.GetValue<ICommand>(); } private set { this.SetValue(value); } }
-        public ICommand AddCommand { get { return this.GetValue<ICommand>(); } private set { this.SetValue(value); } }
+        public ICommand NewCommand { get { return this.GetValue<ICommand>(); } private set { this.SetValue(value); } }
 
         public ReportsPageViewModel()
         {
@@ -67,6 +67,9 @@ namespace StreetFoo.Client
                 else
                     await this.Host.ShowAlertAsync("Failed to get location: " + result.Code.ToString());
             });
+
+            // add...
+            this.NewCommand = new DelegateCommand((e) => this.Host.ShowView(typeof(IEditReportPageViewModel), new ReportViewItem(new ReportItem())));
         }
 
         private async void DoCreateTestReports(CommandExecutionContext context)

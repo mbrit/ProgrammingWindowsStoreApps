@@ -21,7 +21,7 @@
         * Row 1 contains a TextBox for adding a Comment
         * Row 2 contains the standard share target footer
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}">
+    <Grid>
         <Grid Margin="40,20,40,60">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
