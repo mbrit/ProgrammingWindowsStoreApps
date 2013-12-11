@@ -140,8 +140,6 @@
     <Compile Include="Objects\MyGridView.cs" />
     <Compile Include="Objects\MyMap.cs" />
     <Compile Include="Objects\PageExtender.cs" />
-    <Compile Include="Objects\BasicFlyout.cs" />
-    <Compile Include="Objects\BasicFlyoutWidth.cs" />
     <Compile Include="Objects\StreetFooPage.cs" />
     <Compile Include="Objects\ViewModelAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

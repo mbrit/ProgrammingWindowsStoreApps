@@ -1,4 +1,4 @@
-﻿<local:MvvmAwareControl
+﻿<SettingsFlyout
     x:Class="StreetFoo.Client.UI.SettingsFlyout1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -16,22 +16,10 @@
         <!-- The StackPanel(s) below define individual content sections -->
 
         <!-- Content Section 1-->
-        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
-
-            <!-- Section 1 header -->
-            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Lorem ipsum" />
-
-            <!-- Section 1 body -->
-            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap">
-                <TextBlock.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </TextBlock.Text>
-            </TextBlock>
-
+        <StackPanel x:Name="StackPanel" Style="{StaticResource SettingsFlyoutSectionStyle}">
         </StackPanel>
 
         <!-- Define more Content Sections below as necessary -->
 
     </StackPanel>
-</local:MvvmAwareControl>
+</SettingsFlyout>

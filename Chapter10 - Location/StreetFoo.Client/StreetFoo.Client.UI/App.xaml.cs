@@ -122,7 +122,7 @@ namespace StreetFoo.Client.UI
 
             args.Request.ApplicationCommands.Add(new SettingsCommand("MySettings", "My Settings", (e) =>
                 {
-                    var flyout = new SettingsFlyout1();
+                    var flyout = new SettingsFlyout1(new MySettingsPane());
                     flyout.Show();
                 }));
 
@@ -131,8 +131,7 @@ namespace StreetFoo.Client.UI
 
         internal static void ShowHelp()
         {
-            var flyout = new BasicFlyout(new HelpPane());
-            flyout.Width = BasicFlyoutWidth.Wide;
+            var flyout = new SettingsFlyout1(new HelpPane());
             flyout.Show();
         }
 

@@ -9,7 +9,7 @@ using Windows.UI.Xaml.Controls;
 
 namespace StreetFoo.Client.UI
 {
-    public class MvvmAwareControl : SettingsFlyout, IViewModelHost
+    public class MvvmAwareControl : UserControl, IViewModelHost
     {
         public MvvmAwareControl()
         {
