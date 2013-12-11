@@ -13,6 +13,12 @@ namespace StreetFoo.Client.UI
     {
         public MvvmAwareControl()
         {
+            this.Loaded += MvvmAwareControl_Loaded;
+        }
+
+        void MvvmAwareControl_Loaded(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ((IViewModel)this.DataContext).Activated(null);
         }
 
         Task IViewModelHost.ShowAlertAsync(ErrorBucket errors)
