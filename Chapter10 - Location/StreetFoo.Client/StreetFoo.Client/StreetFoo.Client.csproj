@@ -94,6 +94,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>ExpressRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
+    <SuppressXamlWarnings>l</SuppressXamlWarnings>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -207,8 +208,8 @@
     <SDKReference Include="Microsoft.VCLibs, Version=12.0">
       <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
     </SDKReference>
-    <SDKReference Include="SQLite.WinRT81, Version=3.8.2">
-      <Name>SQLite for Windows Runtime %28Windows 8.1%29</Name>
+    <SDKReference Include="SQLite.WinRT81, Version=3.8.0.2">
+      <Name>SQLite for Windows Runtime %28Windows 8.1%291</Name>
     </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
