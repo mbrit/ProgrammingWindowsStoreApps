@@ -12,6 +12,8 @@ namespace StreetFoo.Client
     // base class for view-model implemenations. 
     public abstract class ViewModel : ModelItem, IViewModel
     {
+        private string _caption;
+
         //  somewhere to hold the host...
         protected IViewModelHost Host { get; private set; }
 
@@ -81,6 +83,21 @@ namespace StreetFoo.Client
         public virtual void ShareDataRequested(DataTransferManager sender, DataRequestedEventArgs args)
         {
             // no-op by default...
+        }
+
+        public string Caption
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(_caption))
+                    return this.ToString();
+                else
+                    return _caption;
+            }
+            set
+            {
+                _caption = value;
+            }
         }
     }
 }

@@ -18,6 +18,7 @@ namespace StreetFoo.Client
 
         public HelpPaneViewModel()
         {
+            this.Caption = "Help";
             WebHelpCommand = new DelegateCommand(async (args) => await SettingsInteractionHelper.ShowWebHelpAsync());
         }
 
