@@ -33,5 +33,10 @@ namespace StreetFoo.Client
             var file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Assets/HelpText.txt"));
             this.Markup = await FileIO.ReadTextAsync(file).AsTask();
         }
+
+        public override string ToString()
+        {
+            return "Help";
+        }
     }
 }
