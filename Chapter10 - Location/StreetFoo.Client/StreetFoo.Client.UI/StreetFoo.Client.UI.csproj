@@ -161,6 +161,9 @@
     <Compile Include="MySettingsPane.xaml.cs">
       <DependentUpon>MySettingsPane.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SettingsFlyout1.xaml.cs">
+      <DependentUpon>SettingsFlyout1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShareTargetPage.xaml.cs">
       <DependentUpon>ShareTargetPage.xaml</DependentUpon>
     </Compile>
@@ -219,6 +222,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MySettingsPane.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsFlyout1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
