@@ -16,5 +16,10 @@ namespace StreetFoo.Client
         public MySettingsPaneViewModel()
         {
         }
+
+        public override string ToString()
+        {
+            return "My setttings";
+        }
     }
 }
