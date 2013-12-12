@@ -39,7 +39,6 @@
             </Grid>
         </AppBar>
     </Page.BottomAppBar>    
-    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>

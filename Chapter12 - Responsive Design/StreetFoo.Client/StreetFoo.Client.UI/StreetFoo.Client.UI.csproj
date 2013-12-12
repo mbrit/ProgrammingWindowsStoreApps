@@ -147,6 +147,7 @@
     <Compile Include="Objects\MyGridView.cs" />
     <Compile Include="Objects\MyMap.cs" />
     <Compile Include="Objects\PageExtender.cs" />
+    <Compile Include="Objects\ResponsiveStreetFooPage.cs" />
     <Compile Include="Objects\StreetFooPage.cs" />
     <Compile Include="Objects\ViewModelAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -249,6 +250,9 @@
     </SDKReference>
     <SDKReference Include="Microsoft.VCLibs, version=12.0">
       <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WinRT81, Version=3.8.2">
+      <Name>SQLite for Windows Runtime %28Windows 8.1%29</Name>
     </SDKReference>
   </ItemGroup>
   <ItemGroup />
