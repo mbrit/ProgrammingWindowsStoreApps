@@ -25,6 +25,7 @@ namespace StreetFoo.Client.UI
         private void OnLoaded(object sender, RoutedEventArgs routedEventArgs)
         {
             this.Title = _userControl.DataContext.ToString();
+            this.Width = (_userControl.Width == 646) ? 646 : 346;
         }
     }
 }
