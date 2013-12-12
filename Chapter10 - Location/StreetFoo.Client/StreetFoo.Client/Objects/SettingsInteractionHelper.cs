@@ -17,13 +17,13 @@ namespace StreetFoo.Client
         {
             // this will just take the user off to a web page... 
             // this isn't a real privacy statement, btw...
-            await Launcher.LaunchUriAsync(new Uri("http://programmingwindows8apps.com/"));
+            await Launcher.LaunchUriAsync(new Uri("http://programmingwindowsstoreapps.com/"));
         }
 
         internal static async Task ShowWebHelpAsync()
         {
             // again, not a real website...
-            await Launcher.LaunchUriAsync(new Uri("http://programmingwindows8apps.com/"));
+            await Launcher.LaunchUriAsync(new Uri("http://programmingwindowsstoreapps.com/"));
         }
     }
 }

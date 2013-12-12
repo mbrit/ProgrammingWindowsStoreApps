@@ -6,6 +6,7 @@
     xmlns:local="using:StreetFoo.Client.UI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="646"
     mc:Ignorable="d">
     <Grid>
         <StackPanel Margin="10,10,10,10">

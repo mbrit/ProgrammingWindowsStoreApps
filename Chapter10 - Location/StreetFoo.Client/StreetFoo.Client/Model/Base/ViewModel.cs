@@ -12,8 +12,11 @@ namespace StreetFoo.Client
     // base class for view-model implemenations. 
     public abstract class ViewModel : ModelItem, IViewModel
     {
-        //  somewhere to hold the host...
+        // somewhere to hold the host...
         protected IViewModelHost Host { get; private set; }
+
+        // holds an overriden caption...
+        private string _caption;
 
         // support field for IsBusy flag...
         private int BusyCount { get; set; }
@@ -81,6 +84,21 @@ namespace StreetFoo.Client
         public virtual void ShareDataRequested(DataTransferManager sender, DataRequestedEventArgs args)
         {
             // no-op by default...
+        }
+
+        public string Caption
+        {
+            get
+            {
+                if (!(string.IsNullOrEmpty(_caption)))
+                    return _caption;
+                else
+                    return this.ToString();
+            }
+            set
+            {
+                _caption = value;
+            }
         }
     }
 }
