@@ -13,8 +13,9 @@ namespace StreetFoo.Client
 
         public string Foobar { get { return this.GetValue<string>(); } set { this.SetValue(value); } }
 
-            public MySettingsPaneViewModel()
-            {
-            }
+        public MySettingsPaneViewModel()
+        {
+            this.Caption = "My Settings";
+        }
     }
 }
