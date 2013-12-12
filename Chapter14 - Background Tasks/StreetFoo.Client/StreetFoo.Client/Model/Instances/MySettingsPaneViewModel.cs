@@ -15,6 +15,8 @@ namespace StreetFoo.Client
 
         public MySettingsPaneViewModel()
         {
+            // set a specific caption...
+            this.Caption = "My Settings";
         }
     }
 }

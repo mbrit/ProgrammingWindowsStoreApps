@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="StreetFoo.Client.UI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StreetFoo.Client.UI">
+
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+            <local:BooleanNegationConverter x:Key="BooleanNegationConverter"/>
+            <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

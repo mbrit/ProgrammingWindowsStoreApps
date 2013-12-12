@@ -134,6 +134,9 @@
     <Compile Include="HelpPane.xaml.cs">
       <DependentUpon>HelpPane.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MySettingsFlyout.xaml.cs">
+      <DependentUpon>MySettingsFlyout.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NotLoggedOnPage.xaml.cs">
       <DependentUpon>NotLoggedOnPage.xaml</DependentUpon>
     </Compile>
@@ -211,6 +214,10 @@
     <Page Include="HelpPane.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MySettingsFlyout.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="NotLoggedOnPage.xaml">
       <Generator>MSBuild:Compile</Generator>

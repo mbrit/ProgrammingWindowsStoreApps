@@ -24,5 +24,11 @@ namespace StreetFoo.Client
 
         // called when the view-model might have some data to share...
         void ShareDataRequested(DataTransferManager sender, DataRequestedEventArgs args);
+
+        // property to get the view model caption...
+        string Caption
+        {
+            get;
+        }
     }
 }
