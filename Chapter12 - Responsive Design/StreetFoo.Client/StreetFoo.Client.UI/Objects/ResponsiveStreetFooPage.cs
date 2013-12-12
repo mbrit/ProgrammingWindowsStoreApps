@@ -15,7 +15,7 @@ namespace StreetFoo.Client.UI.Objects
         {
             if (e.NewSize.Width <= SmallMode)
             {
-                VisualStateManager.GoToState(this, "Small", true);
+                VisualStateManager.GoToState(this,"Small", true);
             }
             else if (e.NewSize.Width <= MediumMode && e.NewSize.Width > SmallMode)
             {
