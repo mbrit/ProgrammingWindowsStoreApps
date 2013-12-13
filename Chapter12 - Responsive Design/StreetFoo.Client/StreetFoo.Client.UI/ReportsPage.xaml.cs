@@ -14,8 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
 // The Items Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234233
+using StreetFoo.Client.UI.Objects;
 
 namespace StreetFoo.Client.UI
 {
@@ -23,7 +23,7 @@ namespace StreetFoo.Client.UI
     /// A page that displays a collection of item previews.  In the Split Application this page
     /// is used to display and select one of the available groups.
     [ViewModelAttribute(typeof(IReportsPageViewModel))]
-    public sealed partial class ReportsPage : StreetFooPage
+    public sealed partial class ReportsPage : ResponsiveStreetFooPage
     {
         private IReportsPageViewModel Model { get; set; }
 
