@@ -1,4 +1,4 @@
-﻿<local:StreetFooPage
+﻿<objects:ResponsiveStreetFooPage
     x:Name="pageRoot"
     x:Class="StreetFoo.Client.UI.RegisterPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
@@ -8,6 +8,7 @@
     xmlns:common="using:StreetFoo.Client.UI.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:objects="using:StreetFoo.Client.UI.Objects"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -43,9 +44,11 @@
                           AutomationProperties.AutomationId="BackButton"
                           AutomationProperties.ItemType="Navigation Button"/>
         <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Register" Style="{StaticResource HeaderTextBlockStyle}"/>
+        
+        <TextBlock x:Name="helpText" Grid.Row="1" Grid.Column="1" Visibility="Collapsed" Text="Registration cannot be done in this mode"/>
 
         <!-- Registration form -->
-        <StackPanel Grid.Row="1" Grid.Column="1">
+        <StackPanel x:Name="registrationForm" Grid.Row="1" Grid.Column="1">
 
             <TextBlock Text="Username"></TextBlock>
             <TextBox HorizontalAlignment="Left" Width="400" Text="{Binding Username, Mode=TwoWay}"/>
@@ -62,6 +65,29 @@
             <Button Content="Register" Command="{Binding RegisterCommand}"></Button>
 
         </StackPanel>
-        
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="Default"/>
+                <VisualState x:Name="Small">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="helpText" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                        </ObjectAnimationUsingKeyFrames>
+
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="registrationForm" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
     </Grid>
-</local:StreetFooPage>
+</objects:ResponsiveStreetFooPage>

@@ -11,8 +11,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using StreetFoo.Client.UI.Objects;
 
 namespace StreetFoo.Client.UI
 {
@@ -20,7 +20,7 @@ namespace StreetFoo.Client.UI
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
     [ViewModel(typeof(ILogonPageViewModel))]
-    public sealed partial class LogonPage : StreetFooPage
+    public sealed partial class LogonPage : ResponsiveStreetFooPage
     {
         private ILogonPageViewModel Model { get; set; }
 
