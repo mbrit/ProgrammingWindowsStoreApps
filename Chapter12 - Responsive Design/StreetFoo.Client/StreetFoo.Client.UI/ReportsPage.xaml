@@ -25,7 +25,7 @@
         <AppBar>
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="50*"/>
                 </Grid.ColumnDefinitions>
             <StackPanel Orientation="Horizontal" Visibility="{Binding HasSelectedItems, Converter={StaticResource BooleanToVisibilityConverter}}">
@@ -61,7 +61,7 @@
                           AutomationProperties.Name="Back"
                           AutomationProperties.AutomationId="BackButton"
                           AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Reports" Style="{StaticResource HeaderTextBlockStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Reports" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
         <!-- Horizontal scrolling grid used in most view states -->

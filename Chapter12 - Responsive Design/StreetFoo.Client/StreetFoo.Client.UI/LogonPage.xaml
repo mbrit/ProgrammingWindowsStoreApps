@@ -36,7 +36,7 @@
                           AutomationProperties.Name="Back"
                           AutomationProperties.AutomationId="BackButton"
                           AutomationProperties.ItemType="Navigation Button"/>
-        <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logon" Style="{StaticResource HeaderTextBlockStyle}"/>
+        <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logon" Style="{StaticResource PageHeaderTextStyle}"/>
 
         <TextBlock x:Name="helpText" Grid.Row="1" Grid.Column="1" Visibility="Collapsed" Text="Logon cannot be used in this mode"/>        
         <!-- Registration form -->

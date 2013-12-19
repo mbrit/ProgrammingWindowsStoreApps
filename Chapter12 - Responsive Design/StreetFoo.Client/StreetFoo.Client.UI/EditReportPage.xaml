@@ -21,7 +21,7 @@
         <AppBar IsSticky="true" IsOpen="true">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="50*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Orientation="Horizontal" x:Name="appbarPanelLeft">
@@ -54,14 +54,15 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+            <TextBlock x:Name="pageTitleNew" Grid.Column="1" Text="New Report" Style="{StaticResource PageHeaderTextStyle}" Visibility="{Binding IsNew, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+            <TextBlock x:Name="pageTitleEdit" Grid.Column="1" Text="Edit Report" Style="{StaticResource PageHeaderTextStyle}" Visibility="{Binding IsNew, Converter={StaticResource BooleanToVisibilityNegationConverter}}"/>
             <AppBarButton x:Name="backButton" Icon="Back" Height="95" Margin="10,46,10,0"
                           Click="GoBack" 
                           Visibility="{Binding IsEnabled, Converter={StaticResource BooleanToVisibilityConverter}, RelativeSource={RelativeSource Mode=Self}}"
                           AutomationProperties.Name="Back"
                           AutomationProperties.AutomationId="BackButton"
                           AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitleNew" Grid.Column="1" Text="New Report" Style="{StaticResource HeaderTextBlockStyle}" Visibility="{Binding IsNew, Converter={StaticResource BooleanToVisibilityConverter}}"/>
-            <TextBlock x:Name="pageTitleEdit" Grid.Column="1" Text="Edit Report" Style="{StaticResource HeaderTextBlockStyle}" Visibility="{Binding IsNew, Converter={StaticResource BooleanToVisibilityNegationConverter}}" Margin="0,-2,0,2"/>
+
         </Grid>
 
         <Grid Grid.Row="1" x:Name="containerFill">
