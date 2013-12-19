@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml;
 
-namespace StreetFoo.Client.UI.Objects
+namespace StreetFoo.Client.UI
 {
     public class ResponsiveStreetFooPage : StreetFooPage
     {

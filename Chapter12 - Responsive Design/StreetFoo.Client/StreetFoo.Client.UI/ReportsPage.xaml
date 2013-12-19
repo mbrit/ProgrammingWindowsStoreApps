@@ -1,4 +1,4 @@
-﻿<objects:ResponsiveStreetFooPage
+﻿<local:ResponsiveStreetFooPage
     x:Name="pageRoot"
     x:Class="StreetFoo.Client.UI.ReportsPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
@@ -122,4 +122,4 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
     </Grid>
-</objects:ResponsiveStreetFooPage>
+</local:ResponsiveStreetFooPage>
