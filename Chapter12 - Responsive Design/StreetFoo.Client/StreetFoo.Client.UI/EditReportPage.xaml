@@ -49,7 +49,7 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.Row="1" x:Name="containerFill">
+        <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
@@ -63,8 +63,8 @@
             <TextBlock x:Name="pageTitleNew" Grid.Column="1" Text="New Report" Style="{StaticResource HeaderTextBlockStyle}" Visibility="{Binding IsNew, Converter={StaticResource BooleanToVisibilityConverter}}"/>
             <TextBlock x:Name="pageTitleEdit" Grid.Column="1" Text="Edit Report" Style="{StaticResource HeaderTextBlockStyle}" Visibility="{Binding IsNew, Converter={StaticResource BooleanToVisibilityNegationConverter}}" Margin="0,-2,0,2"/>
         </Grid>
-        
-        <Grid Grid.Row="1">
+
+        <Grid Grid.Row="1" x:Name="containerFill">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="800"/>
